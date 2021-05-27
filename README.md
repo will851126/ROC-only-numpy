@@ -24,7 +24,7 @@ After training our model, we need to evaluate whether its any good or not and th
 
 ## ROC curves¶
 
-**ROC curve (Receiver Operating Characteristic)**is a commonly used way to visualize the performance of a binary classifier and AUC (Area Under the ROC Curve) is used to summarize its performance in a single number. Most machine learning algorithms have the ability to produce probability scores that tells us the strength in which it thinks a given observation is positive. Turning these probability scores into yes or no predictions requires setting a threshold; cases with scores above the threshold are classified as positive, and vice versa. Different threshold values can lead to different result:
+**ROC curve (Receiver Operating Characteristic)** is a commonly used way to visualize the performance of a binary classifier and AUC (Area Under the ROC Curve) is used to summarize its performance in a single number. Most machine learning algorithms have the ability to produce probability scores that tells us the strength in which it thinks a given observation is positive. Turning these probability scores into yes or no predictions requires setting a threshold; cases with scores above the threshold are classified as positive, and vice versa. Different threshold values can lead to different result:
 
 * A higher threshold is more conservative about labeling a case as positive; this makes it less likely to produce false positive (an observation that has a negative label but gets classified as positive by the model) results but more likely to miss cases that are in fact positive (lower true positive rate)
 
